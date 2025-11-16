@@ -1,0 +1,8 @@
+Dockerfile
+.venv
+checkpoints/
+metadata/
+wavs/
+*.wav
+*.ckpt
+*.csv

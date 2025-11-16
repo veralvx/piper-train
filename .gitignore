@@ -1,0 +1,12 @@
+.venv
+*.wav
+*.ckpt
+*.csv
+*.onnx
+*.json
+*.yaml
+*.yml
+*events*
+.venv
+.mypy_cache
+.drafts/
