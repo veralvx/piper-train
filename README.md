@@ -96,10 +96,10 @@ uv run python3 -m piper.train fit \
   --data.csv_path ./metadata/metadata.csv \
   --data.audio_dir ./wavs \
   --model.sample_rate 22050 \
-  --data.espeak_voice "pt" \
+  --data.espeak_voice "en" \
   --data.cache_dir ./cache \
   --data.config_path ./checkpoints/config.json \
-  --data.batch_size 1 \
+  --data.batch_size 32 \
   --trainer.max_epochs 3200 \
   --trainer.callbacks "lightning.pytorch.callbacks.ModelCheckpoint" \
   --trainer.callbacks.every_n_epochs 50 \
